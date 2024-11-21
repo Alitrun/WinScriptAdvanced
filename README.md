@@ -1,6 +1,14 @@
 WinScript Advanced
 (c) Alexander Shyshko, (aka Alex Shy), 2016
 
+![ColumnsScreenshot](https://github.com/user-attachments/assets/0f62b377-b3c4-4eee-8627-867d3479ab8f)
+
+PHP and AHK scripts:
+![php and ahk](https://github.com/user-attachments/assets/84f95b23-c463-4e8a-ace3-978b695df1f6)
+
+
+![ActiveScripts](https://github.com/user-attachments/assets/515d8793-4a03-456c-8761-ff335d67dc69)
+
 ==============================================================
 	General Info
 ==============================================================
