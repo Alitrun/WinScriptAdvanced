@@ -1,13 +1,11 @@
 WinScript Advanced
 (c) Alexander Shyshko, (aka Alex Shy), 2016
 
-http://www.ghisler.ch/board/viewtopic.php?t=44032
-
 ==============================================================
 	General Info
 ==============================================================
 
-	WinScriptAdv content plugin runs your scripts for files and folders and displays returned fom script info into columns.
+	WinScriptAdv content plugin for Total Commander runs your scripts for files and folders and displays returned fom script info into columns.
 	You can write your own scripts for getting any useful information from the file\folder or parse its 
 	name, for sorting files in a desired order, for complex file renaming with Multi-Rename Tool, etc.
 
