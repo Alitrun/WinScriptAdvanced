@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899 12 30 00:00:00.000.828,=E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.234,=E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.999,=E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.046,E:\Work\Delphi Projects\WinScript_wdx\MiscFunctions.pas=</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.609,C:\Documents and Settings\Administrator\My Documents\RAD Studio\Projects\Project1.dproj=E:\Work\Delphi Projects\WinScript_wdx\WinScript_WDX.dproj</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.175,E:\Work\Delphi Projects\WinScript_wdx\PowerShell.pas=E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.062,E:\Work\Delphi Projects\WinScript_wdx\Scripts.pas=E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.953,=E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.703,E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas=E:\Work\Delphi Projects\WinScript_wdx\MiscFunctions.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.437,E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas=E:\Work\Delphi Projects\WinScript_wdx\Core.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.937,=e:\Work\Delphi Projects\WinScript_wdx\WinScriptsAdv.todo</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.218,E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas=E:\Work\Delphi Projects\WinScript_wdx\ExtraFuncs.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.765,=E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.265,=E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas</Transaction>
+    <Transaction>1899 12 30 00:00:00.000.921,E:\Work\Delphi Projects\WinScript_wdx\Unit1.pas=E:\Work\Delphi Projects\WinScript_wdx\ScriptEngine.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,71 @@
+v.1.7	27 June, 2016
+***
+  Script Unification, for scripts that work directly with an exe interpreter - AHK, PHP, Autoit:  
+  Now you do not need to print values of "content" variables to the console stdOut from your script code. 
+  (Plugin will generate and add these strings). 
+  So delete this strings from the end of your scripts (plugin will work correctly with these strings).
+
+***
+  Added 2 new params for ExeScriptParsers section: 
+  StdOutFormat and CmdArgs
+  E.g.: au3=c:\Program Files (x86)\AutoIt3\AutoIt3.exe
+	au3CmdArgs=ExeArgs
+	au3StdOutFormat=ConsoleWrite ($%s & @CRLF) 
+  Read info in options.ini
+
+
+
+v.1.6	10 June, 2016
+***
+  Added PowerShell scripting language support 
+
+
+
+v1.5	21 May, 2016
+***
+  Fixed: Plugin crash when creating certain objects in vbs script.
+  Such as: set xmlDoc = CreateObject("MSXML2.DOMDocument") 
+	 
+  
+
+v.1.4	18 May, 2016
+
+***
+  Added AutoIt (*.au3) scripting language support
+***
+  You can use enviroment variables in "path" key in options.ini, section [ExeScriptParsers]
+***
+  Fixed: Under certain conditions the data did not come through StdOut pipe from some apps.
+
+
+
+1.3.4	17 May, 2016
+***
+  Added ability to add any custom script engines. WinScriptAdv sends script code directly 
+  to an exe interpreter, and script returns its results to the console StdOut, where WinScriptAdv reads them.
+***
+  Added AutoHotKey (*.ahk) scripting language support
+***
+  Added PHP scripting language support
+
+  See examples in Scripts folder, and read ReadMe for details.
+
+
+
+1.1.3	15 May, 2016
+*** 
+  Added Python scripting language support (IActiveScript)
+  
+
+
+1.0.2	14 May, 2016
+*** 
+  Added CONTENT_DELAYIFSLOW > FT_DELAYED flag.
+  With this flag TC will call some functions in a background thread, so now folders is opening much faster.
+***
+  Added comments in options.ini that describe scipts.
+
+
+1.0	13 May, 2016
+***
+  Release

@@ -1,0 +1,43 @@
+WinScriptAdvanced now supports Python scripts. Both x32 and x64.
+
+Tested on Windows 10 x64 Pro.
+
+
+But first you need to install Python distribution (I tryied ActivePython) and install pywin32, so 
+
+
+1. Download ActivePython
+Go to http://www.activestate.com/activepython/downloads, scroll to the bottom of the page, 
+here are latest versions. 
+
+I tested with:
+ActivePython-3.4.3.2-win32-x86.msi and 
+ActivePython-3.4.3.2-win64-x64.msi
+
+For x32 version of Total Commander you need ActivePython-x86, 
+for x64 version of Total Commander you need ActivePython-x64.
+
+If you're using only Total Commander x32  - not necessary to install ActivePython-x64 and vice versa.
+
+Install it.
+
+
+2. Download pywin32 from https://sourceforge.net/projects/pywin32/
+Version of Python must be same as ActivePython, 
+
+I tested with: 
+pywin32-220.win32-py3.4.exe     - install it for TC x32
+pywin32-220.win-amd64-py3.4.exe - install it for TC x64
+
+3. That's all. 
+
+Put *.py script file to the "Scripts" folder and add it into options.ini
+I tryied script "testPython.py" both on x32\x64 and it works. Windows 10 Pro.
+
+
+
+Python + WinSciptAdv does not work on Windows XP x64! 
+Such Python scripts will crash TC - I could not get it to work. Do not know about XP x32. 
+
+
+Alex Shy.

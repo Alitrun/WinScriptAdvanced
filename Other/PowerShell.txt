@@ -1,0 +1,7 @@
+https://support.microsoft.com/en-us/kb/190351
+powershell.exe -ExecutionPolicy Bypass -noexit -NonInteractive -nologo -file 11.ps1
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -File <script_name>
+
+To start script with spaces in path:
+
+&("e:\Work\Delphi Projects\WinScript_wdx\Win32\Debug\Scripts\testPowerShell.ps1")

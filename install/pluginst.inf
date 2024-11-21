@@ -1,0 +1,5 @@
+[plugininstall]
+description=Run your vbs and js scripts for files\folders and shows results in columns (info that script processed)
+type=wdx
+file=WinScriptsAdv.wdx
+defaultdir=WinScriptsAdv_wdx

@@ -1,0 +1,20 @@
+When using PowerShell scripts with WinScriptAdv plugin, PowerShell.exe need some time to start, usually near 3-6 seconds.
+You can speed up powershell startup if you run this script in PS once.
+
+
+Source:
+http://stackoverflow.com/questions/4208694/how-to-speed-up-startup-of-powershell-in-the-4-0-environment
+
+Before script: powershell.exe is starting near 5 seconds
+After script:  powershell.exe is starting near 1.5 seconds 
+
+Run this ps script:
+
+$env:path = [Runtime.InteropServices.RuntimeEnvironment]::GetRuntimeDirectory()
+[AppDomain]::CurrentDomain.GetAssemblies() | % {
+  if (! $_.location) {continue}
+  $Name = Split-Path $_.location -leaf
+  Write-Host -ForegroundColor Yellow "NGENing : $Name"
+  ngen install $_.location | % {"`t$_"}
+}
+
