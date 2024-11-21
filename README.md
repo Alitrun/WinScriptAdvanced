@@ -1,4 +1,4 @@
-WinScript Advanced
+WinScript Advanced (x32, x64)
 (c) Alexander Shyshko, (aka Alex Shy), 2016
 
 ![ColumnsScreenshot](https://github.com/user-attachments/assets/0f62b377-b3c4-4eee-8627-867d3479ab8f)
